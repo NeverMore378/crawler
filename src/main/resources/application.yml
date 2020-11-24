@@ -1,0 +1,13 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/article?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
+  redis:
+    host: 127.0.0.1
